@@ -17,7 +17,6 @@
 .feature-row .number {
     font-size: 2rem;
     font-weight: 700;
-    font-family: serif;
 	color: #1E60A7;
 	line-height: 1;
 	margin-bottom: 0.7rem;
@@ -64,16 +63,13 @@
 .card-link{
 	color: #1E60A7;
 	text-decoration: underline;
-	font-family: serif;
 }
 
 .slds-button{
-	font-family: serif;
 }  
 
 .welcome-message{
 	color: #1E60A7;
-	font-family: serif;
 	font-size: 1.5625rem;
 	font-weight: 600;
 	text-align: center;

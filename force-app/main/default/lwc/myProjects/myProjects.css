@@ -1,7 +1,3 @@
-.my-projects > *{
-    font-family: serif;
-}
-
 .my-projects {
 	border-radius: 0.8rem;
 	border: none !important;
@@ -17,5 +13,4 @@
 .my-projects .slds-card__header-title{
 	color: #1E60A7;
 	font-size: 25px;
-	font-family: serif;
 }  

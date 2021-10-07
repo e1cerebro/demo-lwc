@@ -9,4 +9,8 @@ export default class CertificatesCard extends LightningElement {
             { label: 'Report Folders', value: 'report_folders' },
         ];
     }
+
+	handleClick(e){
+		e.preventDefault();
+	}
 }
