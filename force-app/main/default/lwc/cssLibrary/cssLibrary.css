@@ -1,0 +1,91 @@
+.featured-rows{
+	display: flex;
+	flex-flow: column wrap;
+    gap: 1rem;
+}
+
+.feature-row{
+    display: flex;
+    gap: 1.5rem;
+	align-items: center;
+}
+
+.feature-row:not(:last-child){
+	margin-bottom: 1.5rem;
+}
+
+.feature-row .number {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: serif;
+	color: #1E60A7;
+	line-height: 1;
+	margin-bottom: 0.7rem;
+}
+
+.feature-row .icon {
+	background: #C3D0DB;
+    padding: 1.1rem;
+    height: 100%;
+	border-radius: 0.6rem;
+}
+
+.feature-row .icon.red-bg {
+	background: #FFCCCB;
+}
+
+.feature-row .icon.green-bg {
+	background: #B3E6B5;
+}
+
+.normal-icon {
+	--sds-c-icon-color-foreground-default: #003D72; 
+	--sds-c-icon-color-foreground: #003D72;
+	--sds-c-icon-color-background: transparent;
+}
+
+.red-icon {
+	--sds-c-icon-color-foreground-default: #F14800; 
+	--sds-c-icon-color-foreground: #F14800;
+	--sds-c-icon-color-background: transparent;
+}
+
+.green-icon {
+	--sds-c-icon-color-foreground-default: #209653; 
+	--sds-c-icon-color-foreground: #209653;
+	--sds-c-icon-color-background: transparent;
+}
+
+.feature-row .label {
+	line-height: 1;
+	color: #1E60A7;
+}
+
+.card-link{
+	color: #1E60A7;
+	text-decoration: underline;
+	font-family: serif;
+}
+
+.slds-button{
+	font-family: serif;
+}  
+
+.welcome-message{
+	color: #1E60A7;
+	font-family: serif;
+	font-size: 1.5625rem;
+	font-weight: 600;
+	text-align: center;
+}
+
+@media only screen and (min-width: 800px) {
+	.welcome-message{
+		text-align: left;
+	}
+} 
+
+button.slds-button.slds-button_neutral{
+	color: #4088FC;
+border: 2px solid #4088FC;
+}

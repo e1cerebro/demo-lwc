@@ -1,0 +1,40 @@
+<template>
+	<div class="welcome-message slds-m-bottom_xx-large">
+		Welcome to Centra, Babatope!
+	</div>
+	<div class="card-container">
+		<div class="item">
+			<c-certificates-card></c-certificates-card>
+		</div>
+		<div class="item">
+			<c-my-projects card_title="My Projects">
+				<div class="featured-rows" slot="items">
+					<c-card-item number='12' icon_bg='icon' label='Projects in Progress'>
+						<lightning-icon slot="icon" class="normal-icon"  icon-name="utility:refresh" size="medium" title="large size"></lightning-icon>
+					</c-card-item>
+					<c-card-item number='09' icon_bg='icon red-bg' label='Projects on Hold'>
+						<lightning-icon slot="icon" class="red-icon" icon-name="utility:pause_alt" size="medium" title="large size"></lightning-icon>
+					</c-card-item>
+				</div>
+				<div slot="link" class="card-link slds-m-top_large">
+					<a href="#">View Status Of Projects</a>
+				</div>
+			</c-my-projects>
+		</div>
+		<div class="item">
+			<c-my-projects card_title="My Quotes" show_button='true'>
+				<div class="featured-rows" slot="items">
+					<c-card-item number='39' icon_bg='icon' label='Quotes Issued'>
+						<lightning-icon slot="icon" class="normal-icon" icon-name="utility:serialized_product_transaction" size="medium" title="large size"></lightning-icon>
+					</c-card-item>
+					<c-card-item number='23' icon_bg='icon green-bg' label='Quotes Accepted'>
+						<lightning-icon slot="icon" variant="warning" icon-name="utility:multi_select_checkbox" class="green-icon" size="medium" title="large size"></lightning-icon>
+					</c-card-item>
+				</div>
+				<div slot="link" class="card-link slds-m-top_large">
+					<a href="#">View Status Of Quotes</a>
+				</div>
+			</c-my-projects>
+		</div>
+	</div>
+</template>

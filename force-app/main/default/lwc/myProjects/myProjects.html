@@ -1,0 +1,20 @@
+<template>
+    <div class="slds-card my-projects">
+		<div class="slds-card__header slds-grid slds-p-horizontal_x-large ">
+			<header class="slds-media slds-media_center slds-has-flexi-truncate slds-p-top_x-large">
+				<div class="slds-media__body">
+					<h2 class="slds-card__header-title">{card_title}</h2>
+				</div>
+			</header>
+		</div>
+		<div class="slds-card__body slds-card__body_inner slds-p-bottom_xx-large slds-p-top_small slds-p-horizontal_x-large">
+			<slot name='items'></slot>
+			<slot name='link'></slot>
+			<template if:true={show_button}>
+				<div class="slds-m-top_large">
+					<lightning-button label="Request Quote" title="Request Quote" onclick={handleClick} class=""></lightning-button>
+				</div>
+			</template>
+		</div>
+	</div>
+</template>

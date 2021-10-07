@@ -1,0 +1,46 @@
+.table-card{
+	border-radius: 0.8rem;
+	border: none !important;
+    box-shadow: 0 0 14px 14px #e2e2e2 !important;
+}
+
+.table-card .slds-card__body{
+	overflow: scroll;
+}
+
+.documents-table{
+	border-collapse: collapse !important;
+}
+
+.documents-table thead tr{
+	height: 3rem;
+	border-bottom: 1pt solid #2f2f2f;
+}
+
+.download-wrapper{
+	display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    line-height: 1;
+}
+
+.download-link{
+	text-decoration: underline;
+}
+
+.document-type{
+	border-radius: 0;
+}
+
+.slds-table tbody tr {
+    height: 3rem;
+}
+
+.header-title h3{
+	color: #1359A2;
+	font-weight: 800;
+}
+
+.slds-table_cell-buffer tr>th:first-child {
+    padding-left: 8px !important;
+}

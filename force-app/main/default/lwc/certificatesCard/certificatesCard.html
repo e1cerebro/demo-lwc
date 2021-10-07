@@ -1,0 +1,37 @@
+<template>
+    <div class="slds-card certificate-and-reports-card">
+		<div class="slds-card__header slds-grid">
+			<header class="slds-media slds-media_center slds-has-flexi-truncate slds-p-horizontal_large slds-p-vertical_x-large">
+				<div class="slds-media__body">
+					<h2 class="slds-card__header-title">Certificates and Reports</h2>
+				</div>
+			</header>
+		</div>
+		<div class="slds-card__body slds-card__body_inner slds-p-bottom_x-large slds-p-top_x-large slds-p-horizontal_xx-large">
+			<div class="slds-form-element slds-m-bottom_x-large ">
+				<div class="slds-form-element__control">
+					<div class="slds-select_container">
+						<select class="slds-select" id="select-01">
+							<option value="">
+								Search by Keyword
+							</option>
+							<option>
+								Option One
+							</option>
+						</select>
+					</div>
+				</div>
+			</div>
+
+			<lightning-radio-group name="radioGroup"
+				label=""
+				options={options}
+				value={value}
+				type="radio">
+			</lightning-radio-group>
+
+			<lightning-button label="Search" title="Non-primary action" onclick={handleClick} class="custom-button"></lightning-button>
+
+		</div>
+	</div>
+</template>

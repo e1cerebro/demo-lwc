@@ -1,0 +1,21 @@
+.my-projects > *{
+    font-family: serif;
+}
+
+.my-projects {
+	border-radius: 0.8rem;
+	border: none !important;
+    box-shadow: 0 0 14px 14px #e2e2e2 !important;
+	height: 100%;
+}
+
+.my-projects .slds-card__header {
+	border-top-right-radius: 0.8rem;
+	border-top-left-radius: 0.8rem;
+}
+
+.my-projects .slds-card__header-title{
+	color: #1E60A7;
+	font-size: 25px;
+	font-family: serif;
+}  
